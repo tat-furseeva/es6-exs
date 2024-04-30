@@ -1,5 +1,3 @@
-var arr1 = "john".split('');
-const toggleBool = () => (bool = !bool);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const removeDuplicates = (arr) => [...new Set(arr)];
 const minNumber = arr => Math.min(...arr);
-var DELIM_SIZE = 4;
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
