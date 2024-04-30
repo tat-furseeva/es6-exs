@@ -1,5 +1,2 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-console.log(1 +  "2" + "2");
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const uniqueArr = (arr) => [...new Set(arr)];
-console.log("1 || 2 = "+(1 || 2));
+const randomBoolean = () => Math.random() >= 0.5;
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
