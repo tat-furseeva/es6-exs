@@ -1,2 +1,1 @@
-const isArray = (arr) => Array.isArray(arr);
-var DELIM_SIZE = 4;
+const arrayContains = (arr, element) => arr.includes(element);
