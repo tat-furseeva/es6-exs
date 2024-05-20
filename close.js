@@ -1,1 +1,2 @@
-function myAPITS(someString: string, someNum: number) { ... };
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+console.log(false == '0');
