@@ -1,3 +1,1 @@
-const merge = Object.assign({}, obj1, obj2);
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const uniqueArr = (arr) => [...new Set(arr)];
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
