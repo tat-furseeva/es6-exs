@@ -1,1 +1,3 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const toggleBool = () => (bool = !bool);
