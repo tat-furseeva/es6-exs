@@ -1,2 +1,3 @@
-console.log("1 || 2 = "+(1 || 2));
-const getRandomBoolean = () => Math.random() >= 0.5;
+var arr3 = "jones".split('');
+console.log( "A" - "B" + 2);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
