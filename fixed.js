@@ -1,2 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
-const isEven = (num) => num % 2 === 0;
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const arrayContains = (arr, element) => arr.includes(element);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
