@@ -1,2 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-[foo, bar] = [bar, foo];
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const lastElement = arr => arr[arr.length - 1];
+const removeDuplicates = (arr) => [...new Set(arr)];
