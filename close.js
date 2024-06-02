@@ -1,3 +1,3 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const lastElement = arr => arr[arr.length - 1];
-const removeDuplicates = (arr) => [...new Set(arr)];
+console.log("1 && 2 = "+(1 && 2));
+console.log(false == '0');
+const merge = [...new Set(a.concat(b))];
