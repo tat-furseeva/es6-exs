@@ -1,3 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const arrayContains = (arr, element) => arr.includes(element);
+[foo, bar] = [bar, foo];
 const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
