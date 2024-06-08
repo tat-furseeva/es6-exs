@@ -1,3 +1,3 @@
-[foo, bar] = [bar, foo];
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const fullName = name || 'buddy';
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
