@@ -1,2 +1,2 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const removeDuplicates = (arr) => [...new Set(arr)];
+console.log(false == '0');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
