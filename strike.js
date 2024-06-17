@@ -1,2 +1,2 @@
-console.log(false == '0');
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+function myAPITS(someString: string, someNum: number) { ... };
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
