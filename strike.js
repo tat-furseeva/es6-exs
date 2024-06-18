@@ -1,2 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const channelName = getChannelName(channel);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const getRandomBoolean = () => Math.random() >= 0.5;
