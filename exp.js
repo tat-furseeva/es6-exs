@@ -1,3 +1,3 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
