@@ -1,2 +1,3 @@
-console.log( "A" - "B" + "2");
-var arr1 = "john".split('');
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const allResults = await Promise.all(items.map(async (item) => {}));
