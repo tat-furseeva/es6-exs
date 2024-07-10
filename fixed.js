@@ -1,3 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
-const isTabInView = () => !document.hidden;
-console.log(typeof typeof 1);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
