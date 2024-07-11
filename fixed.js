@@ -1,2 +1,3 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+console.log(false == '0');
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+[foo, bar] = [bar, foo];
