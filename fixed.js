@@ -1,3 +1,3 @@
-console.log(false == '0');
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-[foo, bar] = [bar, foo];
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+console.log(typeof typeof 1);
+console.log( "A" - "B" + "2");
