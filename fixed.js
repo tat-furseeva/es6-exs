@@ -1,2 +1,3 @@
-const merge = [...new Set([...a, ...b])];
-console.log("0 || 1 = "+(0 || 1));
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
