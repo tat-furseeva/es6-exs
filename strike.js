@@ -1,3 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+console.log("0 && 1 = "+(0 && 1));
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 const updated = numbers.filter(element => element > 6);
-const results = await Promise.all(resultingPromises);
