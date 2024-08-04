@@ -1,2 +1,3 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-var DELIM_SIZE = 4;
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+console.log(false == '0');
+const fullName = name || 'buddy';
