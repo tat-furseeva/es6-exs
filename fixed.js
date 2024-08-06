@@ -1,1 +1,2 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const reversedString = str => str.split('').reverse().join('');
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
